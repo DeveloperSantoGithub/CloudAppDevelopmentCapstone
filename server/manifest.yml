@@ -1,11 +1,11 @@
 applications:
   - name: djangoapp
     routes:
-      - route: bcars4you.eu-gb.cf.appdomain.cloud
+      - route: sksantopro.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: bcars4you.eu-gb.cf.appdomain.cloud/static
+      - route: sksantopro.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
